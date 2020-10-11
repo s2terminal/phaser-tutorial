@@ -1,8 +1,13 @@
 version: '3'
 services:
+  app:
+    build: .
+    volumes:
+      - .:/app
   web:
     image: nginx:latest
     volumes:
       - ./index.html:/usr/share/nginx/html/index.html
+      - ./dist/:/usr/share/nginx/html/dist/
     ports:
       - 127.0.0.1:8080:80
