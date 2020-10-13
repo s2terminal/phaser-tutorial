@@ -4,7 +4,7 @@
   "description": "https://phaser.io/tutorials/making-your-first-phaser-3-game/part1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

@@ -9,5 +9,5 @@ open http://127.0.0.1:8080/
 
 ## Only Compile
 ```bash
-$ docker-compose run --rm app npx webpack
+$ docker-compose run --rm app npm run build
 ```
